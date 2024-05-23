@@ -1,0 +1,19 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.child {
+    width: 20%;
+    height: 50px;
+    background-color: lightcoral;
+}
+.child:nth-child(1) {
+    background-color: lightgoldenrodyellow;
+}
+.child:nth-child(3) {
+    background-color: lightgreen;
+}
